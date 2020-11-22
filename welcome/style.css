@@ -1,0 +1,26 @@
+body{
+    background: url(welcome.jpeg);
+    background-size: 100% 100%;
+}
+
+button{
+    cursor: pointer;
+}
+
+.welcome-btn{
+    background-color: rgb(16, 76, 231);
+    border: solid black;
+    border-radius: 30px;
+    width: 20%;
+    height: 7.5%;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+
+.welcome-btn:hover{
+    transition: 2s;
+    background-color: black;
+    border: solid rgb(16, 76, 231);
+    color: rgb(16, 76, 231);
+}
