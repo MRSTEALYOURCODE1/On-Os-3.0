@@ -9,6 +9,7 @@
     <div class="log">
         <div class="see">
             <p style="color: white; position: absolute; top: 48%; left: 44%;" id="test"></p>
+            <p style="color: dodgerblue; position: absolute; top: 54%; left: 43%;" >Applying Prefrences</p>
             <img class="load" src="loading.gif" height="5%">
         </div>
     </div>
@@ -16,6 +17,9 @@
         window.onload = function myFunction() {
             document.getElementById("test").innerHTML = localStorage.getItem("username");
         }
+
+        setTimeout(function(){ window.location.href="main/main.html"; }, 4500);
+        
     </script>
 </body>
 </html>
