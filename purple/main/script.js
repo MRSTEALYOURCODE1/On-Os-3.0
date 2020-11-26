@@ -13,6 +13,7 @@ function check() {
     window.location.href=localStorage.getItem("url", '_blank');
 }
 
+
 function openNav() {
     document.getElementById("mySidepanel").style.width = "35%";
   }
