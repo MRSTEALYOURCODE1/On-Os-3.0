@@ -109,3 +109,11 @@ button{
     color: gray;
 }
 
+.folder{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    width: 10%;
+    height: 15%;
+    cursor: pointer;
+}
