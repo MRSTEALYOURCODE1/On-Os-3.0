@@ -9,6 +9,9 @@ function enter() {
     }
 }
 
+
+
+
 window.onload = function myFunction() {
     document.getElementById("test").innerHTML = localStorage.getItem("username");
 }

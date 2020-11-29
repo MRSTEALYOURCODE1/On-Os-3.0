@@ -140,3 +140,57 @@ button{
     top: 38%;
     left: 35%;
 }
+
+.docs{
+    background: url(https://www.gstatic.com/images/branding/product/1x/docs_48dp.png);
+    background-size: 100% 100%;
+    width: 5.5%;
+    height: 10%;
+    position: absolute;
+    top: 15%;
+    left: 15.5%;
+    cursor: pointer;
+}
+
+.slides{
+    background: url(https://www.gstatic.com/images/branding/product/1x/slides_48dp.png);
+    background-size: 100% 100%;
+    width: 5.5%;
+    height: 10%;
+    position: absolute;
+    top: 15%;
+    left: 20.5%;
+    cursor: pointer;
+}
+
+.sheet{
+    background: url(https://www.gstatic.com/images/branding/product/1x/sheets_48dp.png);
+    background-size: 100% 100%;
+    width: 5.5%;
+    height: 10%;
+    position: absolute;
+    top: 15%;
+    left: 25.5%;
+    cursor: pointer;
+}
+
+.form{
+    background: url(https://www.gstatic.com/images/branding/product/1x/forms_48dp.png);
+    background-size: 100% 100%;
+    width: 5.5%;
+    height: 10%;
+    position: absolute;
+    top: 15%;
+    left: 30.5%;
+    cursor: pointer;
+}
+
+.browse{
+    background: url(chrome.webp);
+    background-size: 100% 100%;
+    width: 6%;
+    position: absolute;
+    top: 15%;
+    left: 36%;
+    height: 10%;
+}
