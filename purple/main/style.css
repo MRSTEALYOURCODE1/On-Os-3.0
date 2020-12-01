@@ -3,6 +3,24 @@ body{
     background-size: 100% 100%;
 }
 
+.folder-one{
+    background: url(file/on-os/folder.png);
+    background-size: 100% 100%;
+    width: 7%;
+    height: 12%;
+    position: absolute;
+    left: 90%;
+    cursor: pointer;
+}
+
+.fol-name{
+    position: absolute;
+    left: 92%;
+    top: 11.5%;
+    cursor: pointer;
+    color: white;
+}
+
 .taskbar{
     position: absolute;
     left: 0%;

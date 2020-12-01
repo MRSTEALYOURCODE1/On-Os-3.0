@@ -194,3 +194,14 @@ button{
     left: 36%;
     height: 10%;
 }
+
+.doc{
+    background: url(doc.png);
+    background-size: 100% 100%;
+    width: 5.5%;
+    height: 10%;
+    position: absolute;
+    top: 15%;
+    left: 41.5%;
+    cursor: pointer;
+}

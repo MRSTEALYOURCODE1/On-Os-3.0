@@ -3,10 +3,39 @@ function myFunction() {
     enter();
 }
 
+document.getElementById("foldername").innerHTML = localStorage.getItem("nam");
+    document.getElementById("foldername").innerHTML = localStorage.getItem("nam");
+    document.getElementById("foldername").innerHTML = localStorage.getItem("nam");
+
+
+if(document.getElementById("foldername").innerHTML == ""){
+    document.getElementById("foldername").style.display = "none";
+    document.getElementById("folder").style.display = "none";
+}else{
+    document.getElementById("foldername").style.display = "block";
+    document.getElementById("folder").style.display = "block";
+}
+
 function enter() {
     var content = prompt("Enter URL");
     localStorage.setItem("url", content);
 }
+
+    
+
+    function createFolder(){
+        var folname = prompt("Create A Folder Name");
+        localStorage.setItem("nam", folname);
+        document.getElementById("foldername").innerHTML = localStorage.getItem("nam");
+
+        if(document.getElementById("foldername").innerHTML == ""){
+            document.getElementById("foldername").style.display = "none";
+            document.getElementById("folder").style.display = "none";
+        }else{
+            document.getElementById("foldername").style.display = "block";
+            document.getElementById("folder").style.display = "block";
+        }
+    }
 
 
 function check() {

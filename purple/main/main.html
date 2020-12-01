@@ -5,7 +5,7 @@
     <title>Desktop</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body ondblclick="createFolder();">
     <div class="taskbar">
         <div class="line"></div>
 
@@ -37,11 +37,12 @@
 
         <button class="openbtn" onclick="openNav()">File Menu</button>  
 
-
         
         
     </div>
 
+    <div id="folder" class="folder-one"></div>
+    <p id="foldername" class="fol-name"></p>
 
     <div id="mySidepanel" class="sidepanel">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>   
@@ -49,6 +50,7 @@
             <a href="main2.html">Light Mode</a>
             <a href="main.html">Dark Mode</a>
             <a href="file/file.html">File Exploler</a>
+            <a href="file/stream/main.html" target="_blank">Tv, Streaming</a>
         </div>
       </div>
 
