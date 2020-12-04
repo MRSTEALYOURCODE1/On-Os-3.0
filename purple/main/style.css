@@ -30,6 +30,7 @@ body{
     background-color: rgb(152, 1, 152);
 }
 
+
 .docs{
     background: url(https://www.gstatic.com/images/branding/product/1x/docs_48dp.png);
     background-size: 100% 100%;
@@ -38,6 +39,7 @@ body{
     position: absolute;
     left: 15.5%;
     cursor: pointer;
+    border: none;
 }
 
 .slides{
@@ -48,6 +50,7 @@ body{
     position: absolute;
     left: 20.5%;
     cursor: pointer;
+    border: none;
 }
 
 .sheet{
@@ -58,6 +61,7 @@ body{
     position: absolute;
     left: 25.5%;
     cursor: pointer;
+    border: none;
 }
 
 .form{
@@ -68,6 +72,7 @@ body{
     position: absolute;
     left: 30.5%;
     cursor: pointer;
+    border: none;
 }
 
 .line{
@@ -124,6 +129,7 @@ body{
     position: absolute;
     left: 36%;
     height: 100%;
+    border: none;
 }
 
 .openbtn{

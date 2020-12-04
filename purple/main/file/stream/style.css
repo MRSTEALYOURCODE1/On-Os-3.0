@@ -48,6 +48,9 @@ body{
 .net{
     height: 100%;
     width: 15%;
+    background: url(logo-1.png);
+    background-size: 100% 100%;
+    border: none;
 }
 
 .net2{
@@ -56,6 +59,9 @@ body{
     position: absolute;
     left: 16%;
     top: 22%;
+    background: url(logo-2.png);
+    background-size: 100% 100%;
+    border: none;
 }
 
 .net3{
@@ -64,6 +70,9 @@ body{
     position: absolute;
     left: 33%;
     top: 22%;
+    background: url(logo-3.png);
+    background-size: 100% 100%;
+    border: none;
 }
 
 .net4{
@@ -72,5 +81,8 @@ body{
     position: absolute;
     left: 55%;
     top: 22%;
+    background: url(spotify-icons-logos/logos/01_RGB/02_PNG/Spotify_Logo_RGB_Green.png);
+    background-size: 100% 100%;
+    border: none;
 }
 
