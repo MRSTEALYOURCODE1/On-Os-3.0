@@ -3,28 +3,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desktop</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style3.css">
 </head>
-<body ondblclick="createFolder();">
+<body>
     <div class="taskbar">
         <div class="line"></div>
-        
-            <button onclick="window.open('https://docs.google.com/', '_blank');" class="docs"></button>
 
-        
-            <button onclick="window.open('https://docs.google.com/presentation', '_blank');" class="slides"></button>
-        
+        <a href="https://docs.google.com" target="_blank">
+            <div class="docs"></div>
+        </a>
+        <a href="https://docs.google.com/presentation" target="_blank">
+            <div class="slides"></div>
+        </a>
 
-        
-            <button onclick="window.open('https://docs.google.com/spreadsheets', '_blank');" class="sheet"></button>
-        
+        <a href="https://docs.google.com/spreadsheets" target="_blank">
+            <div class="sheet"></div>
+        </a>
 
-        
-            <button onclick="window.open('https://docs.google.com/forms', '_blank');" class="form"></button>
-        
+        <a href="https://docs.google.com/forms/u/0/" target="_blank">
+            <div class="form"></div>
+        </a>
 
-        
-            <button onclick="window.open('https://google.com', '_blank');" class="browse"></button>
+        <a href="https://google.com" target="_blank">
+            <div class="browse"></div>
+        </a>
 
         <div onclick="myFunction()" class="add">
             <div class="top-add"></div>
@@ -35,12 +37,11 @@
 
         <button class="openbtn" onclick="openNav()">File Menu</button>  
 
+
         
         
     </div>
 
-    <div id="folder" class="folder-one"></div>
-    <p id="foldername" class="fol-name"></p>
 
     <div id="mySidepanel" class="sidepanel">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>   
@@ -48,7 +49,6 @@
             <a href="main2.html">Light Mode</a>
             <a href="main.html">Dark Mode</a>
             <a href="file/file.html">File Exploler</a>
-            <a href="file/stream/main.html" target="_blank">Tv, Streaming</a>
         </div>
       </div>
 
