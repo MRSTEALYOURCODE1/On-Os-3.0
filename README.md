@@ -1,3 +1,5 @@
 # On-Os-3.0
 
-Workin on it
+Create folders, document, code, terminal, games
+file menu
+and much more
