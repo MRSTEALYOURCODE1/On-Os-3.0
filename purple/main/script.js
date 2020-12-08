@@ -21,6 +21,8 @@ function enter() {
     localStorage.setItem("url", content);
 }
 
+document.getElementById("mySidepanel").style.display = "none";
+
     
 
     function createFolder(){
@@ -44,14 +46,16 @@ function check() {
 
 
 function openNav() {
+    document.getElementById("mySidepanel").style.display = "block";
     document.getElementById("mySidepanel").style.width = "35%";
   }
   
   function closeNav() {
     document.getElementById("mySidepanel").style.width = "0";
+    setTimeout(function(){document.getElementById("mySidepanel").style.display = "none";}, 3000);
   }
 
-function pwd(){
+/*function pwd(){
     var hi = prompt("Set Password");
     localStorage.setItem("hi", hi);
 }
@@ -70,4 +74,38 @@ window.onload = function like(){
     }
 
 }
+*/
 
+if(localStorage.getItem("doodoo") == null) {
+    document.getElementById("ent").style.display = "none";
+    document.getElementById("enter").style.display = "none";
+}else{
+    document.getElementById("set").style.display = "none";
+    document.getElementById("sett").style.display = "none";
+}
+
+
+function setPassKey(){
+     var key = document.getElementById("set").value;
+     localStorage.setItem("doodoo", key);
+     document.getElementById("turn").style.display = "none";
+}
+
+function enterPassKey(){
+    if(localStorage.getItem("doodoo") == document.getElementById("ent").value){
+        document.getElementById("turn").style.display = "none";
+    }else{
+        alert("incorrect");
+        location.reload();
+    }
+}
+
+
+var input = document.getElementById("ent");
+document.addEventListener('DOMContentLoaded', function () {
+    input.addEventListener("keydown", function(event) {
+        if (event.keyCode === 13) {
+            enterPassKey();
+        }
+    });
+});
