@@ -205,3 +205,36 @@ button{
     left: 41.5%;
     cursor: pointer;
 }
+
+.code{
+    background: url(code.webp);
+    background-size: 100% 100%;
+    width: 5.5%;
+    height: 10%;
+    position: absolute;
+    top: 15%;
+    left: 46%;
+    cursor: pointer;
+}
+
+.iterm{
+    background: url(iterm.png);
+    background-size: 100% 100%;
+    width: 5.5%;
+    height: 10%;
+    position: absolute;
+    top: 15%;
+    left: 51.5%;
+    cursor: pointer;
+}
+
+.call{
+    background: url(calculators/calculator.png);
+    background-size: 100% 100%;
+    width: 5.5%;
+    height: 10%;
+    position: absolute;
+    top: 15%;
+    left: 57%;
+    cursor: pointer;
+}
